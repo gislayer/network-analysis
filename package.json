@@ -1,0 +1,23 @@
+{
+  "name": "network-analysis",
+  "version": "1.0.0",
+  "description": "You can analyze network of your local geometric data using this package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gislayer/network-analysis.git"
+  },
+  "keywords": [],
+  "author": "Ali Kilic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gislayer/network-analysis/issues"
+  },
+  "homepage": "https://github.com/gislayer/network-analysis#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
