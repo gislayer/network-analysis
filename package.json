@@ -4,7 +4,8 @@
   "description": "You can analyze network of your local geometric data using this package.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "do": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/gislayer/network-analysis#readme",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "@tmcw/togeojson": "^4.5.0",
+    "fs": "0.0.1-security",
+    "shapefile": "^0.6.6",
+    "shapefile-parser": "^1.0.3",
+    "wkt": "^0.1.1",
+    "xmldom": "^0.6.0"
   }
 }
