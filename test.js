@@ -1,6 +1,9 @@
 var networkAnalysis = require('./index');
-var geojsonFile = './data/lines.geojson';
+var filePath = './data/lines.geojson';
 
-networkAnalysis.addLocalFile(geojsonFile);
-
-console.log(networkAnalysis.geojson.features.length);
+networkAnalysis.settings({
+    indexQuality:17,
+    tolerance:1,
+    segment:true
+});
+networkAnalysis.addLocalFile(filePath);

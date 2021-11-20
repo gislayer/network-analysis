@@ -24,7 +24,7 @@ module.exports = {
         const fi={};
         for(var i in data){
             const feature = data[i];
-            const fid = feature.fid;
+            const fid = feature.node;
             const findedTiles = this.getGeoJSONTiles(feature.coords);
             if(fi[fid]==undefined){
                 fi[fid] = findedTiles;
