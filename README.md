@@ -3,14 +3,15 @@
 # network-analysis
 
 ```js
+// if you have local file
 var networkAnalysis = require('network-analysis');
 
 var filePath = './data/lines.geojson';
 
 networkAnalysis.settings({
-    indexQuality:17,
-    tolerance:1,
-    segment:true
+    indexQuality:17, // Spatial index Tile Zoom Level
+    tolerance:1, // Meters limit between start-end point of close segments
+    segment:true // Segmenting of LineStrings
 });
 networkAnalysis.addLocalFile(filePath);
 ```
